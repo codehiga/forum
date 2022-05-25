@@ -1,4 +1,6 @@
 import { createGlobalStyle } from "styled-components";
+import styled from 'styled-components';
+
 
 export const GlobalStyled = createGlobalStyle`
 
@@ -15,4 +17,10 @@ export const GlobalStyled = createGlobalStyle`
     font-family: 'Inter', sans-serif;
     font-family: 'Roboto', sans-serif;
   }
+`
+
+export const Wrapper = styled.div`
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
 `
