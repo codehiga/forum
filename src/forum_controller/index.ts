@@ -66,3 +66,10 @@ export const pushTopicResponse = async (id:string, response: TopicResponse) => {
   })
 
 }
+
+export const docReference = async (id:string) => {
+
+  let response = await getSpecificTopic(id);
+
+  return doc(db, 'topicos', response.id);
+}

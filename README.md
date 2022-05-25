@@ -1,4 +1,4 @@
-# Gallery Typescript
+# Forum Typescript
 
 **`Objetivo com a criação do projeto:`**
 

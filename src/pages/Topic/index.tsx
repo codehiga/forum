@@ -24,7 +24,6 @@ export const Topic = () => {
 
     let dtTopic = await getSpecificTopic(id);
     setTopicData(dtTopic.data());
-    console.log(dtTopic.data())
   }
 
   if(!topicData || !id) return <Loading />
