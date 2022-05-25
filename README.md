@@ -24,7 +24,6 @@
 
 **Acesse o projeto a partir desse link:** 
 
-https://gallerytypescript.vercel.app/ 
 [https://forum-liart.vercel.app/](https://forum-liart.vercel.app/)
 
 **`Visualize o projeto:`**
